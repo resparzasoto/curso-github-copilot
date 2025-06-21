@@ -192,3 +192,48 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Go
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+*.test
+*.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.cov
+
+# Dependency directories (remove the comment below if you use Go modules)
+/vendor/
+
+# Go workspace file
+go.work
+
+go.sum
+
+# GoLand project files
+.idea/
+
+# Go build cache
+.cache/
+
+# Go module files
+*.mod
+
+# Go race detector files
+*.race
+
+# Go fuzzing artifacts
+*.fuzz
+
+# Go profile and trace files
+*.prof
+*.trace
+
+# Go test result cache
+testdata/
